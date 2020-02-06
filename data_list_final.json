@@ -1,0 +1,124 @@
+{
+	"additional": [
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\104416\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\104416\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\104416\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\104416\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\105923\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\105923\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\105923\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\105923\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\108323\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\108323\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\108323\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\108323\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\tissueVolFrac.nii"
+		}
+	],
+	"train": [
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\100610\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102311\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\102816\\tissueVolFrac.nii"
+		}
+	],
+	"validation": [
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\109123\\tissueVolFrac.nii"
+		}
+	],
+	"test": [
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111312\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111312\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111312\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111312\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111514\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111514\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111514\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\111514\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\114823\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\114823\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\114823\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\114823\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115017\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115017\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115017\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115017\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115825\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115825\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115825\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\115825\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\116726\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\116726\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\116726\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\116726\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\118225\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\118225\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\118225\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\118225\\tissueVolFrac.nii"
+		},
+		{
+			"input_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\125525\\dwi1K_sh_masked.nii",
+			"output_image": "D:\\Masi_data\\SPIE_2020\\Final_Data\\125525\\wm_fods.nii",
+			"mask": "D:\\Masi_data\\SPIE_2020\\Final_Data\\125525\\nodif_brain_mask.nii.gz",
+			"vol_frac": "D:\\Masi_data\\SPIE_2020\\Final_Data\\125525\\tissueVolFrac.nii"
+		}
+	]
+}
